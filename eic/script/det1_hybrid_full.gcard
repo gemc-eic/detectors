@@ -1,8 +1,4 @@
 <gcard>
-<option name="DBHOST" value="eicdb"/>
-<option name="DATABASE" value="test"/>
-<option name="DBUSER" value="eicuser"/>
-<option name="DBPSWD" value="iloveeic"/>
 
 <detector name="../geometry/det1_solenoid_hybrid/det1_solenoid_hybrid" factory="TEXT" variation="Original"/>
 
@@ -17,6 +13,8 @@
 <detector name="../geometry/det1_dirc_barrel/det1_dirc_barrel" factory="TEXT" variation="Original"/>
 
 <detector name="../geometry/det1_hbd_eleside/det1_hbd_eleside" factory="TEXT" variation="Original"/>
+
+<detector name="../geometry/det1_trd_ionside/det1_trd_ionside" factory="TEXT" variation="Original"/>
 
 <detector name="../geometry/det1_rich_modular_eleside/det1_rich_modular_eleside" factory="TEXT" variation="Original"/>
 <detector name="../geometry/det1_rich_dual_ionside/det1_rich_dual_ionside" factory="TEXT" variation="Original"/>

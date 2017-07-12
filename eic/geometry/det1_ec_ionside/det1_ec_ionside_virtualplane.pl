@@ -16,7 +16,8 @@ my $offset_inner=40.3;
 sub det1_ec_ionside_virtualplane
 {
  my $NUM  = 1;
- my @z    = (412.5-30+$offset-29-0.01);
+#  my @z    = (412.5-30+$offset-29-0.01);
+ my @z    = (412.5-30+$offset-29-0.01+20);
 #  my @Rin  = (50);
 my @Rin  = (30);
  my @Rout = (225);

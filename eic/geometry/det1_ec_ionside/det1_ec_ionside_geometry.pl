@@ -16,12 +16,14 @@ my $offset_inner=40.3;
 sub det1_ec_ionside
 {
  my $NUM  = 1;
- my @z    = (412.5-30+$offset);
+#  my @z    = (412.5-30+$offset);
+ my @z    = (412.5-30+$offset+10);
  my @Rin1  = (30);
  my @Rout1 = (225);
  my @Rin2  = (34);
  my @Rout2 = (225); 
- my @Dz   = (29);
+#  my @Dz   = (29);
+ my @Dz   = (20);
  my @name = (""); 
  my @mother = ("$DetectorMother"); 
  my @mat  = ("Kryptonite");

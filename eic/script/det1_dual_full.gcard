@@ -1,8 +1,4 @@
 <gcard>
-<option name="DBHOST" value="eicdb"/>
-<option name="DATABASE" value="test"/>
-<option name="DBUSER" value="eicuser"/>
-<option name="DBPSWD" value="iloveeic"/>
 
 <detector name="../geometry/det1_solenoid_dual/det1_solenoid_dual" factory="TEXT" variation="Original"/>
 
