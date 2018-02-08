@@ -27,7 +27,7 @@ sub build_gxml
 	my $gxmlFile = new GXML($dirName);
 
 	build_paddles($gxmlFile);
-	build_upLightGuides($gxmlFile);
+	#build_upLightGuides($gxmlFile);
 	build_downLightGuides($gxmlFile);
 
 	$gxmlFile->print();
@@ -48,7 +48,14 @@ sub build_paddles
 		$detector{"color"}       = "444444";
 		$detector{"material"}    = "scintillator";
 		$detector{"sensitivity"}    = "ctof";
-		$detector{"identifiers"}    = sprintf("paddle manual %d", $ipaddle);
+
+		$detector{"identifiers"}    = sprintf("paddle manual %d side manual 0", $ipaddle);
+
+
+		my $paddleid = $ipaddle + 35;
+		if ($ipaddle>13){
+			$paddleid = $ipaddle - 13;
+		}
 
 		$gxmlFile->add(\%detector);
 	}
@@ -107,7 +114,7 @@ sub build_fake_mother
 	$detector{"color"}       = "000000";
 	$detector{"type"}        = "Tube";
 	
-	$detector{"dimensions"}  = "0*cm 1*cm 1*cm 0*deg 360*deg";
+	$detector{"dimensions"}  = "25*cm 28.2226*cm 40.34155*cm 0*deg 360*deg";
 	$detector{"material"}    = "G4_AIR";
 	$detector{"mfield"}      = "no";
 	$detector{"visible"}     = 0;

@@ -58,6 +58,10 @@ require "./ltccBox.pl";      # mother volume
 require "./ell_mirrors.pl";   # ell mirrors
 require "./hyp_mirrors.pl";   # hyp mirrors
 require "./pmts.pl";          # pmts
+require "./cones.pl";          # cones
+require "./cyl_mirrors.pl";          # cyl mirrors
+require "./ltcc_frame.pl";          # frame
+require "./shields.pl";          # shields
 
 # mirrors properties
 require "./mirrors.pl";
@@ -72,27 +76,39 @@ define_bank();
 foreach my $conf ( @allConfs )
 {
 	$configuration{"variation"} = $conf ;
-	
+
 	# materials
 	materials();
-	
+
 	# hits
 	define_hit();
-	
+
 	# Building LTCC Box
 	build_ltcc_box();
-	
+
 	# Elliptical mirrors
-	#buildEllMirrors();
+	buildEllMirrors();
 
 	# Hyperbolic
-	#buildHypMirrors();
-	
+	buildHypMirrors();
+
 	# mirrors surfaces
-	#buildMirrorsSurfaces();
+	buildMirrorsSurfaces();
 
 	# PMTs
 	buildPmts();
+
+	# Cones
+	buildCones();
+
+	# Cylindrical mirrors
+	buildCylMirrors();
+
+	# frame
+	buildLtccFrame();
+
+	# Shields
+	buildShields();
 }
 
 

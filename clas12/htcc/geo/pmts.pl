@@ -216,7 +216,8 @@ sub make_WC_shell
 	$detector{"hit_type"}    = "mirror";
 	$detector{"dimensions"}  = "0";
 	$detector{"material"}    = "G4_Al";
-	$detector{"style"}       = "1";
+	$detector{"style"}       = "0";
+	$detector{"visible"}     = "0";
 	$detector{"sensitivity"}  = "mirror: htcc_AlMgF2";
 	$detector{"hit_type"}     = "mirror";
 	$detector{"identifiers"} = "id manual $WCID";

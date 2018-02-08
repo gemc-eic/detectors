@@ -37,6 +37,7 @@ our %parameters = get_parameters(%configuration);
 
 my $javaCadDir = "javacad";
 system(join(' ', 'groovy -cp "../*" factory.groovy', $javaCadDir));
+#system(join(' ', '~kenjo/.groovy/groovy-2.4.12/bin/groovy -cp "../*" factory.groovy', $javaCadDir));
 
 # materials
 require "./materials.pl";
@@ -54,7 +55,8 @@ require "./geometry.pl";
 require "./geometry_java.pl";
 
 # all the scripts must be run for every configuration
-my @allConfs = ("original", "cad", "java");
+#my @allConfs = ("original", "cad", "java");
+my @allConfs = ("cad", "java");
 
 # bank definitions
 define_bank();
