@@ -245,11 +245,11 @@ my @material = (
     "G4_Galactic",     #13
     "G4_Galactic",     #14
     "G4_Galactic",     #15
-    "StainlessSteel", #16
-    "StainlessSteel", #17
-    "StainlessSteel", #18
-    "StainlessSteel", #19
-    "StainlessSteel", #20
+    "G4_STAINLESS-STEEL", #16
+    "G4_STAINLESS-STEEL", #17
+    "G4_STAINLESS-STEEL", #18
+    "G4_STAINLESS-STEEL", #19
+    "G4_STAINLESS-STEEL", #20
     "G4_Galactic", #21 Steel Plate/G4_Galactic
     "G4_GLASS_LEAD"); #22
 #    "G4_Galactic");
