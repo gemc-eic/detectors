@@ -12,8 +12,8 @@ use Math::Trig;
 sub help()
 {
 	print "\n Usage: \n";
-	print "   bstShield.pl <configuration filename>\n";
- 	print "   Will create the CLAS12 bst shield in various configurations\n";
+	print "   vacuumExtension.pl <configuration filename>\n";
+ 	print "   Will create the CLAS12 vacuumExtension in various configurations\n";
 	exit;
 }
 
@@ -27,17 +27,15 @@ if( scalar @ARGV != 1)
 # Loading configuration file and paramters
 our %configuration = load_configuration($ARGV[0]);
 
-my @allConfs = ( "w51");
+my @allConfs = ( "original");
 
-my $rmin   = 51;
-my $length = 180;
-my $pos    = "0*mm 0*mm -50*mm";
+my $pos = 625;
 
 # Adding the neoprene insulation Heat Shield
 
-my $HSrmin   = 130.0;
-my $HSlength = 270.0;
-my $HSpos    = "0*mm 0*mm -10*mm";
+my $VErmin   = 50.8;
+my $VErmax   = $VErmin + 2;  # 2mm thickness
+my $VElength = 250.0;
 
 foreach my $conf ( @allConfs )
 {
@@ -45,21 +43,16 @@ foreach my $conf ( @allConfs )
 	
 	my %detector = init_det();
 	
-	$detector{"name"}        = "bstShield";
+	$detector{"name"}        = "extensionVacuumCarbonShell";
 	$detector{"mother"}      = "root";
-	$detector{"description"} = "bst shielding";
+	$detector{"description"} = "Vacuum extension made of carbon fiber";
 	$detector{"color"}       = "88aaff";
 	$detector{"type"}        = "Tube";
-	$detector{"pos"}         =  $pos ;
-
-	my $rmax = 0;
+	$detector{"material"}    = "carbonFiber";
+		
+	$detector{"pos"}         =  "0*mm 0*mm $pos*mm" ;
 	
-	if($conf eq "w51") {
-		$rmax = $rmin + 0.051;
-		$detector{"material"}    = "G4_W";
-	}
-	
-	my $dimen = "$rmin*mm $rmax*mm $length*mm 0*deg 360*deg";
+	my $dimen = "0*mm $VErmax*mm $VElength*mm 0*deg 360*deg";
 
 	$detector{"dimensions"}  = $dimen;
 	$detector{"visible"}     = 1;
@@ -68,22 +61,20 @@ foreach my $conf ( @allConfs )
 	
 	
 	%detector = init_det();
-	
-	$detector{"name"}        = "bstHeatShield";
-	$detector{"mother"}      = "svt";
-	$detector{"description"} = "bst heat shielding";
+
+	$detector{"name"}        = "extensionVacuum";
+	$detector{"mother"}      = "extensionVacuumCarbonShell";
+	$detector{"description"} = "Vacuum inside";
 	$detector{"color"}       = "ff8888";
 	$detector{"type"}        = "Tube";
-	$detector{"pos"}         =  $HSpos ;
-	
-	my $HSrmax = $HSrmin + 2.7;
-	
-	$dimen = "$HSrmin*mm $HSrmax*mm $HSlength*mm 0*deg 360*deg";
-	
+
+
+	$dimen = "0*mm $VErmin*mm $VElength*mm 0*deg 360*deg";
+
 	$detector{"dimensions"}  = $dimen;
 	$detector{"visible"}     = 1;
 	$detector{"style"}       = 1;
-	$detector{"material"}    = "G4_RUBBER_NEOPRENE";
+	$detector{"material"}    = "G4_Galactic";
 	print_det(\%configuration, \%detector);
 
 	
