@@ -26,7 +26,7 @@
 <detector name="../geometry/det1_tracker_barrel/det1_tracker_barrel" factory="TEXT" variation="Original"/>
 
 <detector name="../geometry/det1_beamline_magnet/det1_beamline_magnet" factory="TEXT" variation="Original"/>
-<detector name="../geometry/det1_beamline_pipe/cad/cad" factory="CAD"/>
+<detector name="../geometry/det1_beamline_pipe/cad/" factory="CAD"/>
 <detector name="../geometry/det1_tagger_eledownstream/det1_tagger_eledownstream" factory="TEXT" variation="Original"/>
 <detector name="../geometry/det1_compton_eledownstream/det1_compton_eledownstream" factory="TEXT" variation="Original"/>
 
