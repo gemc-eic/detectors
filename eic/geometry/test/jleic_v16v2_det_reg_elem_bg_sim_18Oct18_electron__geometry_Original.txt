@@ -1,0 +1,30 @@
+eBDS61_iron | root | eBDS61_iron | -0.029998*m 0.0*m -34.49102238*m | 0*rad 0.02*rad 0*rad | 00FF00 | Box | 11.0*cm 11.0*cm 1.5*m | Kryptonite | no | 1 | 1 | 1 | 1 | 1 | no | no | no 
+eBDS61_field | eBDS61_iron | eBDS61_field | 0*m 0*m 0*m | 0*rad 0*rad 0*rad | CDE6FA | Box | 4.5*cm 4.5*cm 1.5*m | Vacuum | eBDS61_map | 1 | 1 | 1 | 1 | 1 | no | no | no 
+eBDS51_iron | root | eBDS51_iron | -0.259823805*m 0.0*m -27.29502058*m | 0*rad 0.02125*rad 0*rad | 00FF00 | Box | 11.0*cm 11.0*cm 1.5*m | Kryptonite | no | 1 | 1 | 1 | 1 | 1 | no | no | no 
+eBDS51_field | eBDS51_iron | eBDS51_field | 0*m 0*m 0*m | 0*rad 0*rad 0*rad | CDE6FA | Box | 4.5*cm 4.5*cm 1.5*m | Vacuum | eBDS51_map | 1 | 1 | 1 | 1 | 1 | no | no | no 
+eBDS41_iron | root | eBDS41_iron | -0.293258905*m 0.0*m -25.045361*m | 0*rad 0.00125*rad 0*rad | 00FF00 | Box | 11.0*cm 11.0*cm 0.25*m | Kryptonite | no | 1 | 1 | 1 | 1 | 1 | no | no | no 
+eBDS41_field | eBDS41_iron | eBDS41_field | 0*m 0*m 0*m | 0*rad 0*rad 0*rad | CDE6FA | Box | 4.5*cm 4.5*cm 0.25*m | Vacuum | eBDS41_map | 1 | 1 | 1 | 1 | 1 | no | no | no 
+eBDS31_iron | root | eBDS31_iron | -0.293258905*m 0.0*m -21.34536139*m | 0*rad -0.00125*rad 0*rad | 00FF00 | Box | 11.0*cm 11.0*cm 0.25*m | Kryptonite | no | 1 | 1 | 1 | 1 | 1 | no | no | no 
+eBDS31_field | eBDS31_iron | eBDS31_field | 0*m 0*m 0*m | 0*rad 0*rad 0*rad | CDE6FA | Box | 4.5*cm 4.5*cm 0.25*m | Vacuum | eBDS31_map | 1 | 1 | 1 | 1 | 1 | no | no | no 
+eBDS21_iron | root | eBDS21_iron | -0.259823805*m 0.0*m -19.09570181*m | 0*rad -0.02125*rad 0*rad | 00FF00 | Box | 11.0*cm 11.0*cm 1.5*m | Kryptonite | no | 1 | 1 | 1 | 1 | 1 | no | no | no 
+eBDS21_field | eBDS21_iron | eBDS21_field | 0*m 0*m 0*m | 0*rad 0*rad 0*rad | CDE6FA | Box | 4.5*cm 4.5*cm 1.5*m | Vacuum | eBDS21_map | 1 | 1 | 1 | 1 | 1 | no | no | no 
+eBDS11_iron | root | eBDS11_iron | -0.029998*m 0.0*m -11.89970001*m | 0*rad -0.02*rad 0*rad | 00FF00 | Box | 11.0*cm 11.0*cm 1.5*m | Kryptonite | no | 1 | 1 | 1 | 1 | 1 | no | no | no 
+eBDS11_field | eBDS11_iron | eBDS11_field | 0*m 0*m 0*m | 0*rad 0*rad 0*rad | CDE6FA | Box | 4.5*cm 4.5*cm 1.5*m | Vacuum | eBDS11_map | 1 | 1 | 1 | 1 | 1 | no | no | no 
+eQDS31_iron | root | eQDS31_iron | 0.0*m 0.0*m -4.9*m | 0*rad -0.0*rad 0*rad | AA00FF | Tube | 0*cm 10.0*cm 0.3*m 0*deg 360*deg | Kryptonite | no | 1 | 1 | 1 | 1 | 1 | no | no | no 
+eQDS31_field | eQDS31_iron | eQDS31_field | 0*m 0*m 0*m | 0*rad 0*rad 0*rad | CDE6FA | Tube | 0*cm 4.5*cm 0.3*m 0*deg 360*deg | Vacuum | eQDS31_map | 1 | 1 | 1 | 1 | 1 | no | no | no 
+eQDS21_iron | root | eQDS21_iron | 0.0*m 0.0*m -3.7*m | 0*rad -0.0*rad 0*rad | AA00FF | Tube | 0*cm 8.5*cm 0.3*m 0*deg 360*deg | Kryptonite | no | 1 | 1 | 1 | 1 | 1 | no | no | no 
+eQDS21_field | eQDS21_iron | eQDS21_field | 0*m 0*m 0*m | 0*rad 0*rad 0*rad | CDE6FA | Tube | 0*cm 4.5*cm 0.3*m 0*deg 360*deg | Vacuum | eQDS21_map | 1 | 1 | 1 | 1 | 1 | no | no | no 
+eQDS11_iron | root | eQDS11_iron | 0.0*m 0.0*m -2.5*m | 0*rad -0.0*rad 0*rad | AA00FF | Tube | 0*cm 8.0*cm 0.3*m 0*deg 360*deg | Kryptonite | no | 1 | 1 | 1 | 1 | 1 | no | no | no 
+eQDS11_field | eQDS11_iron | eQDS11_field | 0*m 0*m 0*m | 0*rad 0*rad 0*rad | CDE6FA | Tube | 0*cm 4.5*cm 0.3*m 0*deg 360*deg | Vacuum | eQDS11_map | 1 | 1 | 1 | 1 | 1 | no | no | no 
+eDSDS1_iron | root | eDSDS1_iron | 0.0*m 0.0*m -0.8*m | 0*rad -0.0*rad 0*rad | 0000FF2 | Tube | 0*cm 210.0*cm 0.8*m 0*deg 360*deg | Kryptonite | no | 1 | 1 | 1 | 1 | 1 | no | no | no 
+eDSDS1_field | eDSDS1_iron | eDSDS1_field | 0*m 0*m 0*m | 0*rad 0*rad 0*rad | CDE6FA2 | Tube | 0*cm 160.0*cm 0.8*m 0*deg 360*deg | Vacuum | eDSDS1_map | 1 | 1 | 1 | 1 | 1 | no | no | no 
+eDSUS1_iron | root | eDSUS1_iron | 0.0*m 0.0*m 1.2*m | 0*rad -0.0*rad 0*rad | 0000FF2 | Tube | 0*cm 210.0*cm 1.2*m 0*deg 360*deg | Kryptonite | no | 1 | 1 | 1 | 1 | 1 | no | no | no 
+eDSUS1_field | eDSUS1_iron | eDSUS1_field | 0*m 0*m 0*m | 0*rad 0*rad 0*rad | CDE6FA2 | Tube | 0*cm 160.0*cm 1.2*m 0*deg 360*deg | Vacuum | eDSUS1_map | 1 | 1 | 1 | 1 | 1 | no | no | no 
+eQUS11_iron | root | eQUS11_iron | 0.0*m 0.0*m 3.26*m | 0*rad -0.0*rad 0*rad | AA00FF | Tube | 0*cm 10.0*cm 0.3*m 0*deg 360*deg | Kryptonite | no | 1 | 1 | 1 | 1 | 1 | no | no | no 
+eQUS11_field | eQUS11_iron | eQUS11_field | 0*m 0*m 0*m | 0*rad 0*rad 0*rad | CDE6FA | Tube | 0*cm 4.5*cm 0.3*m 0*deg 360*deg | Vacuum | eQUS11_map | 1 | 1 | 1 | 1 | 1 | no | no | no 
+eQUS21_iron | root | eQUS21_iron | 0.0*m 0.0*m 4.46*m | 0*rad -0.0*rad 0*rad | AA00FF | Tube | 0*cm 11.0*cm 0.3*m 0*deg 360*deg | Kryptonite | no | 1 | 1 | 1 | 1 | 1 | no | no | no 
+eQUS21_field | eQUS21_iron | eQUS21_field | 0*m 0*m 0*m | 0*rad 0*rad 0*rad | CDE6FA | Tube | 0*cm 4.5*cm 0.3*m 0*deg 360*deg | Vacuum | eQUS21_map | 1 | 1 | 1 | 1 | 1 | no | no | no 
+eQUS31_iron | root | eQUS31_iron | 0.0*m 0.0*m 6.91*m | 0*rad -0.0*rad 0*rad | AA00FF | Tube | 0*cm 11.0*cm 0.3*m 0*deg 360*deg | Kryptonite | no | 1 | 1 | 1 | 1 | 1 | no | no | no 
+eQUS31_field | eQUS31_iron | eQUS31_field | 0*m 0*m 0*m | 0*rad 0*rad 0*rad | CDE6FA | Tube | 0*cm 4.5*cm 0.3*m 0*deg 360*deg | Vacuum | eQUS31_map | 1 | 1 | 1 | 1 | 1 | no | no | no 
+eASUS1_iron | root | eASUS1_iron | 0.0*m 0.0*m 8.21*m | 0*rad -0.0*rad 0*rad | 0000FF2 | Tube | 0*cm 11.0*cm 0.6*m 0*deg 360*deg | Kryptonite | no | 1 | 1 | 1 | 1 | 1 | no | no | no 
+eASUS1_field | eASUS1_iron | eASUS1_field | 0*m 0*m 0*m | 0*rad 0*rad 0*rad | CDE6FA2 | Tube | 0*cm 4.5*cm 0.6*m 0*deg 360*deg | Vacuum | eASUS1_map | 1 | 1 | 1 | 1 | 1 | no | no | no 

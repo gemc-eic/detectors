@@ -1,0 +1,136 @@
+<gcard>
+
+<detector name="./jleic_v16v2_det_reg_elem_bg_sim_18Oct18_electron" factory="TEXT" variation="Original"/>
+<detector name="./ion_ir_v16_05sep18" factory="TEXT" variation="Original"/>
+
+<option name="INTEGRATEDRAW" value="flux"/>
+
+<option name="HIT_PROCESS_LIST" value="eic"/>
+<option name="PHYSICS" value="QGSP_BERT"/>
+<option name="RECORD_PASSBY" value="1"/>
+<option name="HALL_MATERIAL" value="Vacuum"/>
+
+<option name="MAX_X_POS" value="100000"/>
+<option name="MAX_Y_POS" value="100000"/>
+<option name="MAX_Z_POS" value="100000"/>
+<option name="HALL_DIMENSIONS" value="100*m,100*m,100*m"/>
+
+<option name="FIELD_DIR" value="./field"/>
+
+<option name="BEAM_P"   value="proton, 100*GeV, 0.05*rad, 180*deg"/>
+<option name="SPREAD_P" value="0*GeV,0*deg,0*deg"/>
+<option name="BEAM_V"   value="(0, 0, 0)m"/>
+<!--
+<option name="FIELD_VERBOSITY" value="99"/>
+<option name="LOG_VERBOSITY" value="0"/>
+<option name="N"   value="1"/>
+<option name="OUTPUT" value="txt,detector.txt"/>
+-->
+<option name="geometry" value="1000x1000"/>
+<option name="HIGH_RES" value="0"/>
+<option name="USE_GUI"  value="2"/>
+
+
+<option name="ROTATE_FIELDMAP" value="eBDS61_map, 0*rad, -0.02*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="eBDS61_map,-0.029998*m, 0.0*m, -34.49102238*m"/> 
+<option name="FIELD_PROPERTIES" value="eBDS61_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="eBDS51_map, 0*rad, -0.02125*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="eBDS51_map,-0.259823805*m, 0.0*m, -27.29502058*m"/> 
+<option name="FIELD_PROPERTIES" value="eBDS51_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="eBDS41_map, 0*rad, -0.00125*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="eBDS41_map,-0.293258905*m, 0.0*m, -25.045361*m"/> 
+<option name="FIELD_PROPERTIES" value="eBDS41_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="eBDS31_map, 0*rad, 0.00125*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="eBDS31_map,-0.293258905*m, 0.0*m, -21.34536139*m"/> 
+<option name="FIELD_PROPERTIES" value="eBDS31_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="eBDS21_map, 0*rad, 0.02125*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="eBDS21_map,-0.259823805*m, 0.0*m, -19.09570181*m"/> 
+<option name="FIELD_PROPERTIES" value="eBDS21_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="eBDS11_map, 0*rad, 0.02*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="eBDS11_map,-0.029998*m, 0.0*m, -11.89970001*m"/> 
+<option name="FIELD_PROPERTIES" value="eBDS11_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="eQDS31_map, 0*rad, 0.0*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="eQDS31_map,0.0*m, 0.0*m, -4.9*m"/> 
+<option name="FIELD_PROPERTIES" value="eQDS31_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="eQDS21_map, 0*rad, 0.0*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="eQDS21_map,0.0*m, 0.0*m, -3.7*m"/> 
+<option name="FIELD_PROPERTIES" value="eQDS21_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="eQDS11_map, 0*rad, 0.0*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="eQDS11_map,0.0*m, 0.0*m, -2.5*m"/> 
+<option name="FIELD_PROPERTIES" value="eQDS11_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="eDSDS1_map, 0*rad, 0.0*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="eDSDS1_map,0.0*m, 0.0*m, -0.8*m"/> 
+<option name="FIELD_PROPERTIES" value="eDSDS1_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="eDSUS1_map, 0*rad, 0.0*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="eDSUS1_map,0.0*m, 0.0*m, 1.2*m"/> 
+<option name="FIELD_PROPERTIES" value="eDSUS1_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="eQUS11_map, 0*rad, 0.0*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="eQUS11_map,0.0*m, 0.0*m, 3.26*m"/> 
+<option name="FIELD_PROPERTIES" value="eQUS11_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="eQUS21_map, 0*rad, 0.0*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="eQUS21_map,0.0*m, 0.0*m, 4.46*m"/> 
+<option name="FIELD_PROPERTIES" value="eQUS21_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="eQUS31_map, 0*rad, 0.0*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="eQUS31_map,0.0*m, 0.0*m, 6.91*m"/> 
+<option name="FIELD_PROPERTIES" value="eQUS31_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="eASUS1_map, 0*rad, 0.0*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="eASUS1_map,0.0*m, 0.0*m, 8.21*m"/> 
+<option name="FIELD_PROPERTIES" value="eASUS1_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="iASUS1_map, 0*rad, -0.05*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="iASUS1_map,0.45481044*m, 0.0*m, -9.08862737*m"/> 
+<option name="FIELD_PROPERTIES" value="iASUS1_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="iQUS31_map, 0*rad, -0.05*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="iQUS31_map,0.384839603*m, 0.0*m, -7.690377005*m"/> 
+<option name="FIELD_PROPERTIES" value="iQUS31_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="iQUS21_map, 0*rad, -0.05*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="iQUS21_map,0.302373974*m, 0.0*m, -6.042439076*m"/> 
+<option name="FIELD_PROPERTIES" value="iQUS21_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="iQUS11_map, 0*rad, -0.05*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="iQUS11_map,0.209912511*m, 0.0*m, -4.194751094*m"/> 
+<option name="FIELD_PROPERTIES" value="iQUS11_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="iCUS11_map, 0*rad, -0.05*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="iCUS11_map,0.154935425*m, 0.0*m, -3.096125807*m"/> 
+<option name="FIELD_PROPERTIES" value="iCUS11_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="iCUS21_map, 0*rad, -0.05*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="iCUS21_map,0.094960422*m, 0.0*m, -1.897625495*m"/> 
+<option name="FIELD_PROPERTIES" value="iCUS21_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="iBDS11_map, 0*rad, -0.052998004*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="iBDS11_map,-0.275633957*m, 0.0*m, 5.493088225*m"/> 
+<option name="FIELD_PROPERTIES" value="iBDS11_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="iCDS21_map, 0*rad, -0.055996009*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="iCDS21_map,-0.316860653*m, 0.0*m, 6.241953899*m"/> 
+<option name="FIELD_PROPERTIES" value="iCDS21_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="iQDS0S1_map, 0*rad, -0.055996009*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="iQDS0S1_map,-0.356037378*m, 0.0*m, 6.940856742*m"/> 
+<option name="FIELD_PROPERTIES" value="iQDS0S1_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="iQDS11_map, 0*rad, -0.055996009*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="iQDS11_map,-0.392415766*m, 0.0*m, 7.589837954*m"/> 
+<option name="FIELD_PROPERTIES" value="iQDS11_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="iQDS1S1_map, 0*rad, -0.055996009*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="iQDS1S1_map,-0.479164229*m, 0.0*m, 9.137408535*m"/> 
+<option name="FIELD_PROPERTIES" value="iQDS1S1_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="iQDS21_map, 0*rad, -0.055996009*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="iQDS21_map,-0.549122667*m, 0.0*m, 10.38544933*m"/> 
+<option name="FIELD_PROPERTIES" value="iQDS21_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="iQDS2S1_map, 0*rad, -0.055996009*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="iQDS2S1_map,-0.619081105*m, 0.0*m, 11.63349012*m"/> 
+<option name="FIELD_PROPERTIES" value="iQDS2S1_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="iQDS31_map, 0*rad, -0.055996009*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="iQDS31_map,-0.705829569*m, 0.0*m, 13.1810607*m"/> 
+<option name="FIELD_PROPERTIES" value="iQDS31_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="iQDS3S1_map, 0*rad, -0.055996009*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="iQDS3S1_map,-0.742207956*m, 0.0*m, 13.83004191*m"/> 
+<option name="FIELD_PROPERTIES" value="iQDS3S1_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="iASDS1_map, 0*rad, -0.055996009*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="iASDS1_map,-0.84014977*m, 0.0*m, 15.57729902*m"/> 
+<option name="FIELD_PROPERTIES" value="iASDS1_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="iBDS21_map, 0*rad, -0.027998004*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="iBDS21_map,-1.019258*m, 0.0*m, 19.77280579*m"/> 
+<option name="FIELD_PROPERTIES" value="iBDS21_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="iBDS31_map, 0*rad, -0.027998004*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="iBDS31_map,-1.131220758*m, 0.0*m, 38.31885708*m"/> 
+<option name="FIELD_PROPERTIES" value="iBDS31_map, 1*mm, G4SimpleRunge, linear"/> 
+<option name="ROTATE_FIELDMAP" value="iQDS41_map, 0*rad, -0.055996009*rad, 0*rad"/> 
+<option name="DISPLACE_FIELDMAP" value="iQDS41_map,-1.472072897*m, 0.0*m, 45.39983416*m"/> 
+<option name="FIELD_PROPERTIES" value="iQDS41_map, 1*mm, G4SimpleRunge, linear"/> 
+</gcard> 
